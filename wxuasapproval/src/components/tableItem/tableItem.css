@@ -1,0 +1,45 @@
+.table-parent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    background: white;
+    padding: 4px 10px;
+    font-size: 13px;
+}
+
+.table-caption {
+    width: 100px;
+    color: #777777;
+}
+
+.table-value {
+    flex: 1;
+    color: #333333;
+    overflow: hidden;
+}
+
+.value-input {
+    height: 24px;
+    line-height: 24px;
+    color: #333333;
+    width: 100%;
+    margin-right: 10px;
+}
+
+DatePicker {
+    margin: 0px;
+    padding: 0px;
+}
+
+.selectItem {
+    height: 38px;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.oldNewLayout {
+    display: flex;
+    flex-direction: column;
+}

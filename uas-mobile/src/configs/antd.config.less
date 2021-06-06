@@ -1,0 +1,187 @@
+/**
+ * Created by RaoMeng on 2020/11/9
+ * Desc: 修改全局antd组件样式
+ */
+
+/********************底部导航栏样式***********************/
+.am-tab-bar-bar {
+  height: @com-tabbar-height !important;
+}
+
+.am-tab-bar-bar .am-tab-bar-tab-icon {
+  font-size: @com-tabbar-icon;
+}
+
+.am-tab-bar-bar .am-tab-bar-tab-title {
+  font-size: @com-tabbar-fontsize !important;
+  margin: 4px 0 0 0 !important;
+}
+
+.am-badge-text {
+  //@tab-bar-padding-top: 3px;
+  //padding-top: @tab-bar-padding-top !important;
+}
+
+.am-tabs-pane-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+/********************List的样式***********************/
+.am-list-item {
+  margin-bottom: 10px;
+}
+
+.am-list-item .am-list-line .am-list-content {
+  font-size: 14px !important;
+  color: @com-text-color-normal !important;
+  word-break: break-all;
+}
+
+.am-list-extra {
+  font-size: 14px !important;
+}
+
+.am-list-item .am-list-line .am-list-brief {
+  font-size: 12px !important;
+  margin-top: 2px !important;
+}
+
+.am-list-item .am-list-line .am-list-content {
+  white-space: normal !important;
+}
+
+.am-list-view-scrollview {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/********************Button按钮的样式***********************/
+.am-button {
+  height: @com-button-height !important;
+  line-height: @com-button-height !important;
+  font-size: @com-button-fontsize !important;
+}
+
+/********************PullToRefresh的样式***********************/
+.am-pull-to-refresh-content-wrapper {
+  min-height: 100%;
+}
+
+.am-pull-to-refresh {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/********************图表的title***********************/
+.ant-table-title {
+  font-size: 14px !important;
+  padding: 8px 8px !important;
+}
+
+.ant-table-title-second {
+  font-size: 12px !important;
+  padding: 0px 8px !important;
+}
+
+/********************日历***********************/
+.calendar-box {
+  .ant-picker-calendar-header {
+    display: flex;
+    justify-content: center;
+
+    .ant-select {
+      min-width: 50px !important;
+      width: 75px !important;
+
+      .ant-select-selector {
+        border: none;
+        padding: 0px !important;
+
+        .ant-select-selection-item {
+          padding: 0 0 0 14px !important;
+        }
+      }
+
+      .ant-select-arrow {
+        display: none;
+      }
+    }
+  }
+}
+
+/********************多行文本***********************/
+.am-textarea-control textarea {
+  font-size: 14px !important;
+}
+
+/********************Table表格***********************/
+.ant-empty-normal {
+  margin: 65px 0 !important;
+}
+
+.ant-table-body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.table-charts {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.ant-table-sticky-scroll {
+  display: none !important;
+}
+
+/********************附件**************************/
+.ant-upload-list-picture .ant-upload-list-item, .ant-upload-list-picture-card .ant-upload-list-item {
+  height: 54px !important;
+}
+
+.ant-upload-list-picture .ant-upload-list-item-name, .ant-upload-list-picture-card .ant-upload-list-item-name {
+  line-height: 36px !important;
+}
+
+.ant-upload-list-picture .ant-upload-list-item-thumbnail, .ant-upload-list-picture-card .ant-upload-list-item-thumbnail {
+  width: 36px !important;
+  height: 36px !important;
+  line-height: 44px !important;
+
+  & img {
+    width: 36px !important;
+    height: 36px !important;
+  }
+}
+
+.ant-upload-list-item-card-actions.picture {
+  top: 16px !important;
+  padding-right: 10px;
+}
+
+.ant-btn-icon-only.ant-btn-sm > * {
+  font-size: 18px !important;
+}
+
+/*************************弹框**************************/
+
+.am-modal-wrap-popup {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.am-modal-body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/*************************spin加载**************************/
+
+.ant-spin.ant-spin-show-text .ant-spin-text {
+  padding: 12px;
+}

@@ -1,0 +1,138 @@
+@func-func-text-line-height: 20px;
+
+.func-group-normal {
+  .com-column-flex;
+  overflow: hidden;
+}
+
+.func-group-card {
+  .func-group-normal;
+  background: white;
+  margin: 12px;
+  border-radius: 10px;
+}
+
+.func-title-layout {
+  padding: 6px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+  .func-title-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+
+  .func-title-text {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    flex: 1;
+    letter-spacing: 2px;
+    //padding-left: 4px;
+    font-weight: bold;
+  }
+
+  .func-title-card-text {
+    .func-title-text;
+    font-weight: normal;
+    color: #666666;
+    padding: 4px;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+
+.func-group-top-line {
+  height: 1px;
+  background-color: lightgray;
+}
+
+.func-func-root {
+  width: 25%;
+  position: relative;
+  display: inline-block;
+  padding: 12px 4px;
+  background: white;
+}
+
+.func-func-root-line {
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  .func-func-root;
+}
+
+
+.func-operation-icon {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: @com-operation-icon-size;
+  height: @com-operation-icon-size;
+  padding: 0;
+}
+
+.func-func-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .func-func-sup {
+    //text-rendering: optimizeLegibility;
+    //-webkit-font-smoothing: antialiased;
+    //-moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    white-space: nowrap;
+    min-width: 20px;
+    max-width: 40px;
+    //top: -6px;
+    right: 0px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 12px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #ff5b05;
+    transform: translateX(-45%);
+    transform-origin: -10% center;
+    z-index: 10;
+    //font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", SimSun, sans-serif, MIUI;
+  }
+
+
+  .func-func-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .func-func-text {
+    width: 100%;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 2px;
+    letter-spacing: 1.6px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: @func-func-text-line-height;
+    line-height: @func-func-text-line-height;
+  }
+
+  .func-func-line-text {
+    .func-func-text;
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}

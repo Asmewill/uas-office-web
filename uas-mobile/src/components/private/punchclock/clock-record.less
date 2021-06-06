@@ -1,0 +1,74 @@
+.punch-clock-record {
+  background: #fff;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+
+  .clock-record-left {
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .clock-record-trans {
+      height: 34px;
+      width: 3px;
+      background: #bcbcbc;
+    }
+  }
+
+  .clock-record-right {
+    font-size: 14px;
+    flex: 1;
+
+    .punch-clock-on-time {
+      border-bottom: 2px solid #f5f5f9;
+    }
+
+    .punch-clock-box {
+      line-height: 22px;
+    }
+
+    .punch-clock-box-normal {
+      color: #aeaeae;
+
+      div {
+        padding-left: 15px;
+      }
+
+      .off-work {
+        color: @com-text-color-normal;
+      }
+
+      .on-work {
+        color: @com-text-color-normal;
+      }
+
+      .on-work-time {
+        font-size: 12px;
+      }
+
+      .off-work-time {
+        font-size: 12px;
+      }
+    }
+
+    .punch-clock-box-delay {
+      color: red;
+
+      div {
+        padding-left: 15px;
+      }
+
+      .on-work-time {
+        font-size: 12px;
+      }
+
+      .off-work-time {
+        font-size: 12px;
+      }
+    }
+
+  }
+}

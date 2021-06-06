@@ -1,0 +1,53 @@
+
+.useStatusRoot{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5 !important;
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.useStatusRoot .content {
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.useStatusRoot .content .branch{
+    padding:2% 4% 2% 4%;
+    color:#000;
+    font-size:20px;
+    background:#fff;
+    border-bottom:1px solid #8e8a8c;
+}
+.useStatusRoot .content .lineCharts{
+    background:#fff;
+    width:92%;
+    margin-left:4%;
+    border-radius: 3%;
+}
+.useStatusRoot .content .columnCharts{
+    background:#fff;
+    margin:3% 0 0 0;
+}
+.useStatusRoot .content .numBox .useNum{
+    float:left;
+    background: #f5f5f5;
+    font-size:16px;
+    color:#4682B4;
+    padding:3% 0 3% 4%;
+}
+.useStatusRoot .content .numBox .iconBox{
+    float:right;
+    background: #f5f5f5;
+    font-size:16px;
+    padding:3% 4% 3% 0;
+}
+.useStatusRoot .content .columnCharts .useTime{
+    margin:0 !important;
+    padding:4%;
+    font-size:14px;
+    border-top:1px solid #8e8a8c;
+    color:#4682B4;
+}

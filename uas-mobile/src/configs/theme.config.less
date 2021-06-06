@@ -1,0 +1,108 @@
+/**
+ * Created by RaoMeng on 2020/10/20
+ * Desc: 全局样式配置
+ */
+/***********************************************【全局通用变量】************************************************/
+/***********************大小、距离************************/
+@com-page-padding: 12px; // 页面内边距
+@com-list-item-padding: 10px; //默认列表item内边距
+@com-operation-icon-size: 16px; //应用item操作icon大小
+@com-button-height: 38px; //全局按钮高度
+@com-button-fontsize: 16px; //全局按钮文字大小
+@com-search-bar-height: 44px; //全局搜索框高度
+@com-hover-button-size: 48px; //右下角悬浮按钮大小
+
+/*************************颜色****************************/
+@com-text-color-normal: #333333; //默认字体颜色
+@com-caption-text-color: #666666; //默认字体颜色
+@com-bg-color-lightGray: #f5f5f9; //默认页面灰色背景
+@com-color-disable: #bbb; //不可编辑颜色
+@com-text-color-light-blue: dodgerblue; //默认蓝色字体
+@com-color-divide-gray-line: #eee; //默认分割线颜色
+
+/**********************底部导航栏相关***********************/
+@com-tabbar-height: 56px; //底部导航栏高度
+@com-tabbar-icon: 20px; //导航栏图标大小
+@com-tabbar-fontsize: 12px; //导航栏文本大小
+@com-form-fontsize-normal: 14px; //表单默认字体大小
+
+/***********************************************【引导布局样式】************************************************/
+.introjs-tooltip {
+  min-width: 200px;
+}
+
+.customTooltip {
+  .introjs-tooltip-header {
+    padding: 10px 16px 0;
+    display: flex;
+    align-items: center;
+
+    .introjs-tooltip-title {
+      flex: 1;
+    }
+
+    .introjs-skipbutton {
+      font-size: 18px;
+      color: dodgerblue;
+      color: dodgerblue;
+      padding: 0;
+    }
+  }
+
+  .introjs-tooltiptext {
+    padding: 16px;
+  }
+
+  .introjs-bullets {
+    padding: 0 0 8px;
+  }
+
+  .introjs-button {
+    padding: 0.3em 0.6em;
+  }
+}
+
+
+/***********************************************【全局通用布局】************************************************/
+.com-column-flex {
+  display: flex;
+  flex-direction: column;
+  background-color: @com-bg-color-lightGray;
+}
+
+.com-row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+//竖向flex布局
+.com-column-flex-root {
+  .com-column-flex;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  //-webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.func-font-family {
+  font-family: PingFangSC-Regular;
+}
+
+.com-hover-button {
+  font-size: @com-hover-button-size;
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  z-index: 2;
+}
+
+.displayNone {
+  display: none;
+}
+
+.visibleHidden {
+  visibility: hidden;
+}

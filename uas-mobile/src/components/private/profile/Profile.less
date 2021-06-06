@@ -1,0 +1,50 @@
+.mine-info {
+  width: 100%;
+}
+
+.profile-layout {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #F5F5F5;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: @com-page-padding;
+
+  .profile-info {
+    flex: 1 1;
+
+    .company {
+      font-size: 15px;
+      line-height: 24px;
+      margin-bottom: 16px;
+      color: #808080;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      min-width: 120px;
+    }
+
+    .name {
+      font-size: 16px;
+      margin: 0;
+      color: @com-text-color-normal;
+    }
+
+    .post {
+      margin-top: 6px;
+      color: #A9A9A9;
+    }
+  }
+
+  .profile-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.profile-set {
+  margin-bottom: 10px;
+}
+

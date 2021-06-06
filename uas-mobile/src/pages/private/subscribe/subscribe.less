@@ -1,0 +1,86 @@
+.subscribe-list-root {
+  .com-column-flex-root
+}
+
+
+.subscribe-manage-root {
+  .com-column-flex-root;
+  width: 100%;
+  height: 100vh;
+
+  .subscribe-manage-tab {
+    display: flex;
+    flex-direction: row;
+
+    .subscribe-manage-item {
+      flex: 1;
+      background: white;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      letter-spacing: 1.88px;
+      text-align: center;
+      height: 48px;
+      line-height: 48px;
+    }
+
+    .subscribe-manage-item-normal {
+      .subscribe-manage-item;
+      color: #666666;
+      border-bottom: 3px solid #F3F3F3;
+    }
+
+    .subscribe-manage-item-select {
+      .subscribe-manage-item;
+      color: #4197FC;
+      border-bottom: 3px solid #4197FC;
+    }
+  }
+}
+
+.swiper-container {
+  width: 100%;
+  flex: 1;
+  background: white;
+}
+
+/*.swiper-wrapper {*/
+/*!*background: red;*!*/
+/*}*/
+
+.swiper-slide {
+
+}
+
+.swiper-content {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.subscribe-already-root {
+  .com-column-flex-root;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.subscribe-not-root {
+  .com-row-flex;
+  width: 100%;
+  height: 100%;
+
+  .subscribe-not-left-menu {
+    .com-column-flex-root;
+    width: 110px;
+    height: 100%;
+    background-color: lightgray;
+  }
+
+  .subscribe-not-right-list {
+    .com-column-flex-root;
+    flex: 1;
+    height: 100%;
+    background-color: white;
+  }
+}
+
+

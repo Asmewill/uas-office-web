@@ -1,0 +1,61 @@
+.currency-list-item-root {
+  .com-column-flex;
+  padding: 8px;
+  width: 100vw;
+  background-color: white;
+  border-top: 1px solid @com-color-divide-gray-line;
+}
+
+
+.currency-row-root {
+  .com-row-flex;
+  width: 100%;
+  padding: 4px 2px;
+  font-size: @com-form-fontsize-normal;
+
+  .currency-row-caption {
+    width: 90px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: normal;
+    color: @com-caption-text-color;
+  }
+
+  .currency-row-value {
+    flex: 1;
+    max-height: 120px;
+    padding-left: 10px;
+    overflow: auto;
+    word-wrap: break-word;
+    word-break: normal;
+    color: @com-text-color-normal;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+.currency-tab-item-root {
+  flex: 1;
+  background: white;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  letter-spacing: 1.88px;
+  text-align: center;
+  height: 42px;
+  line-height: 42px;
+  z-index: 1;
+}
+
+.currency-tab-item-normal {
+  .currency-tab-item-root;
+  color: #666666;
+  border-bottom: 3px solid #F3F3F3;
+}
+
+.currency-tab-item-select {
+  .currency-tab-item-root;
+  color: #4197FC;
+  border-bottom: 3px solid #4197FC;
+}

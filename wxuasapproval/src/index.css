@@ -1,0 +1,127 @@
+@import "~antd/dist/antd.css";
+@import "~semantic-ui-css/semantic.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.gray-line {
+    width: 100%;
+    background: #dedede;
+}
+
+.displayNone {
+    display: none;
+}
+
+.visibleHidden {
+    visibility: hidden;
+}
+
+.common-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.common-flex-row-10 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+.common-flex-row-12 {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+}
+
+.common-flex-row-16 {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+}
+
+.am-tabs-pane-wrap.am-tabs-pane-wrap-active::-webkit-scrollbar {
+    display: none;
+}
+
+.am-pull-to-refresh.am-pull-to-refresh-up::-webkit-scrollbar {
+    display: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.am-tab-bar-bar {
+    font-size: 18px;
+    height: 56px !important;
+}
+
+.am-tab-bar-bar .am-tab-bar-tab-title {
+    font-size: 12px !important;
+    margin: 4px 0 0 0 !important;
+}
+
+.common-load-more {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-bar-root {
+    width: 100%;
+    height: 40px;
+    padding: 6px;
+    background: #F6F6F6;
+}
+
+.search-bar-layout {
+    width: 100%;
+    height: 100%;
+    background: white;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8C8C8C;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    border-radius: 6px;
+}
+
+

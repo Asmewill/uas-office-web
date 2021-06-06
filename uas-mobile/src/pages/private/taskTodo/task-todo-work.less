@@ -1,0 +1,147 @@
+.daily-task-page {
+  height: 100vh;
+  background: @com-bg-color-lightGray;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  * {
+    touch-action: none;
+  }
+
+  .daily-task-page-content {
+    height: 100vh;
+    width: 100%;
+    padding: 8px;
+
+    .task-des-panel {
+      background: #fff;
+      padding: 8px;
+      margin-bottom: 5px;
+
+      .task-des-item {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 2px 2px;
+        font-size: 14px;
+
+        .task-item-caption {
+          width: 100px;
+          overflow: hidden;
+          word-wrap: break-word;
+          word-break: normal;
+          color: #666666;
+        }
+
+        .task-item-value {
+          flex: 1;
+          max-height: 80px;
+          padding-left: 10px;
+          overflow: auto;
+          word-wrap: break-word;
+          word-break: normal;
+          color: #333333;
+        }
+      }
+    }
+
+    .task-handler-panel {
+      background: #fff;
+      padding: 8px;
+      margin-bottom: 5px;
+
+      .task-handler-title {
+        margin-bottom: 2px;
+        color: @com-text-color-normal;
+      }
+
+      .task-handler-detail {
+        border-bottom: 1px solid #DCDCDC;
+        padding: 5px 0px;
+        color: #A9A9A9;
+
+        p {
+          margin: 0px;
+        }
+
+        .task-detail-info {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 4px;
+
+          .task-info-left {
+            padding-left: 12px;
+          }
+
+          .task-info-right {
+            padding-right: 20px;
+          }
+        }
+
+        .task-detail-reply {
+          padding-left: 12px;
+        }
+      }
+    }
+
+    .task-affirm-panel {
+      background: #fff;
+      padding: 8px;
+      margin-bottom: 5px;
+
+      .task-affirm-title {
+        margin-bottom: 2px;
+        padding-top: 8px;
+        color: @com-text-color-normal;
+      }
+
+      .task-affirm-inputitem {
+        .am-list-item {
+          padding-left: 0px;
+          margin-bottom: 0px;
+
+          .am-list-line {
+            padding-right: 35px;
+
+            .am-input-label {
+              width: 100px;
+              font-size: 14px;
+              color: #333333;
+            }
+
+            .am-input-control {
+              .h5numInput {
+                font-size: 14px;
+                text-align: right;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .task-btn-panel {
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+    .task-btn-panel-button {
+      flex: 1;
+      margin: 16px 24px;
+      border: 1px solid #108ee9;
+
+      &:before {
+        border: none !important;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,92 @@
+@import "~antd/dist/antd.css";
+@import "~semantic-ui-css/semantic.min.css";
+
+.gray-line {
+    width: 100%;
+    background: #dedede;
+}
+
+.displayNone {
+    display: none;
+}
+
+.visibleHidden {
+    visibility: hidden;
+}
+
+.common-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.common-flex-row-10 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+.common-flex-row-12 {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+}
+
+.common-flex-row-16 {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+}
+
+.am-tabs-pane-wrap.am-tabs-pane-wrap-active::-webkit-scrollbar {
+    display: none;
+}
+
+.am-pull-to-refresh.am-pull-to-refresh-up::-webkit-scrollbar {
+    display: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.common-load-more {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar-root {
+    width: 100%;
+    height: 40px;
+    padding: 6px;
+    background: #F6F6F6;
+}
+
+.search-bar-layout {
+    width: 100%;
+    height: 100%;
+    background: white;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8C8C8C;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    border-radius: 6px;
+}
+
+

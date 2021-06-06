@@ -1,0 +1,15 @@
+.enclosure-parent {
+    width: 100%;
+    background: white;
+    padding: 4px 10px;
+    font-size: 14px;
+}
+
+.enclosure-value {
+    width: 100%;
+    background: #E4F0F9;
+    color: #333333;
+    padding: 0 6px;
+    min-height: 28px;
+    line-height: 28px;
+}

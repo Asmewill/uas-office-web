@@ -1,0 +1,44 @@
+.popup-list .am-list-body {
+  height: 500px;
+  overflow: auto;
+}
+/* .ant-table-tbody > tr > td {
+  padding: 16px 16px;
+  word-break: break-word;
+} */
+.ant-table {
+ height: 350px !important;
+}
+.ant-empty-normal {
+    margin: 140px 0 !important;
+}
+.triggerBox{
+  width:200px;
+  overflow: hidden;
+  border:1px solid grey;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.triggerBox .inputBox{
+  height:32px;
+  float:left;
+  width:75%;
+}
+.triggerBox .inputBox input{
+  height:100%;
+  width:100%;
+  padding-left:5%;
+}
+.triggerBox .iconBox{
+  float:right;
+  height:32px;
+  width:20%;
+  background:gainsboro;
+}
+.triggerBox .iconBox .triggerIcon{
+  text-align:center;
+  height:100%;
+  line-height: 32px;
+  width:100%;
+}

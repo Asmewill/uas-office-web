@@ -1,0 +1,37 @@
+.tasktodo-list-item-root {
+  background: #fff;
+  color: @com-text-color-normal;
+  border-radius: 4px;
+  align-items: center;
+  margin-top: 6px;
+  min-height: 45px;
+  padding: 5px 0px;
+
+  .task-des-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 14px;
+
+    .task-item-caption {
+      width: 100px;
+      overflow: hidden;
+      word-wrap: break-word;
+      word-break: normal;
+      color: #666666;
+    }
+
+    .task-item-value {
+      flex: 1;
+      max-height: 80px;
+      padding-left: 10px;
+      overflow: auto;
+      overflow-y: hidden;
+      word-wrap: break-word;
+      word-break: normal;
+      color: #333333;
+    }
+  }
+}
